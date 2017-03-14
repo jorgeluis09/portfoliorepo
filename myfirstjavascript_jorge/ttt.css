@@ -1,0 +1,39 @@
+body{
+    background: url("https://cdn.shutterstock.com/shutterstock/videos/18011356/thumb/1.jpg?i10c=img.resize(height:160)");
+    background-size: cover;
+    text-align: center;
+}
+
+td {
+height: 175px;
+width: 175px;
+border: 2px solid black;
+vertical-align: middle;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 75px;
+}
+
+
+/*
+#box1, #box2, #box3{
+	border-top: none;
+}
+
+#box1, #box4, #box7{
+	border-left: none;
+}
+
+#box7, #box8, #box9{
+	border-bottom: none;
+}
+
+#box3, #box6, #box9{
+	border-right: none;
+}
+
+*/

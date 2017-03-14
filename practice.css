@@ -1,0 +1,103 @@
+*{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body{
+    background: gray;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.header{
+    height: 650px;    
+    background: url("images/coffeewall.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerlist{
+    padding-top: 15%;
+    padding-left: 58%;
+    height: 33%;
+    width: 50%;
+}
+
+.headerlist ul{
+    border-left: 4px solid white;
+}
+
+.headerlist li{
+    position: relative;
+    list-style: none;
+    font-size: 40px;
+    font-family: cursive;
+    color: white;
+}
+
+.headerlist .title{
+    padding-bottom: 7%;
+    font-family: serif;
+}
+
+#coffee{
+    border-bottom-color: black;
+    color: black;
+    padding-top: 10px;
+    height: 75vh;
+    opacity: .7;
+    background: url("http://wallpapercave.com/wp/nWHoauW.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.espresso{
+    width: 50%;
+}
+
+.espresso h2{font-family: times;}
+
+.espresso ul{
+    padding: 5%;
+}
+
+.espresso li{
+    font-style: oblique;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#sandwiches{
+    color: white;
+    padding-top 10px;
+    
+    height: 75vh;
+    background: url("https://s-media-cache-ak0.pinimg.com/564x/c4/9a/b9/c49ab93cc9da780061fc137954b0a3c0.jpg");
+    opacity: 0.8 ;
+    background-repeat: no-repeat;
+    background-size: 60% 100%
+}
+
+.form-inline{
+    height: 40px;
+}
+
+table{
+    letter-spacing: 4px;
+    height: 90%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}

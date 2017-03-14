@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+#sidebar{
+    float: left;
+    background-color: blue;
+    color: white;
+    padding-left: 7px;
+    padding-top: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+#content{
+    background: yellow;
+    height: 500px;
+    overflow: auto;
+}

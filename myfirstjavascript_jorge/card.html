@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Random Cards</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="row" id="title">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <h1>Random Cards</h1>
+        <h3 id="displayMessage">Click button for random card</h3>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+
+<div class="row" id="cardrow">
+    <div class="col-md-4"></div>
+        <div class="col-md-4" id="cardbox">
+             <table>
+                 <tr id="row1">
+                    <td id="letter1">A</td>
+                    <td></td>
+                    <td></td>
+                 </tr>
+                 <tr id="row2">
+                    <td></td>
+                    <td id="suitimage">Suit Image</td>
+                    <td></td>
+                 </tr>
+                 <tr id="row 3">
+                    <td></td>
+                    <td></td>
+                    <td id="letter2">A</td>
+                 </tr>
+             </table>   
+        </div>
+    <div class="col-md-4"></div>
+</div>
+
+<BR>
+<BR>
+
+<div class="row" id="button">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <input type="submit" class="btn btn-info" id="myButton" value="Generate Card" onclick="generateCard();">
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+
+
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="card.js"></script>
+</body>
+</html>

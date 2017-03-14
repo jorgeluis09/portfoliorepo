@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+	vertical-align: middle;
+	background: gray;
+}
+
+#cardrow{
+	height: 500px;
+}
+
+
+#cardbox{
+	background: white;
+	border: 2px solid black;
+	height: 100%;
+}
+
+table{
+	height: 100%;
+	width: 100%;
+}
+
+#letter1, #letter2{
+	font-size: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#row1, #row3{
+	height: 20%;
+}
+
+#row2{
+	height: 60%;
+	font-size: 45px;
+}

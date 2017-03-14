@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Tic Tac Toe</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="ttt.css">
+</head>
+<body onload = "startGame();">
+
+<h1> TIC TAC TOE </h1>
+
+<h3 id="displayMessage"></h3>
+
+<table>
+    <tr>
+        <td id="box1" onclick="myFunction(this);"></td> 
+        <td id="box2" onclick="myFunction(this);"></td> 
+        <td id="box3" onclick="myFunction(this);"></td> 
+    </tr>
+    <tr>
+        <td id="box4" onclick="myFunction(this);"></td> 
+        <td id="box5" onclick="myFunction(this);"></td> 
+        <td id="box6" onclick="myFunction(this);"></td> 
+    </tr>
+    <tr>
+        <td id="box7" onclick="myFunction(this);"></td> 
+        <td id="box8" onclick="myFunction(this);"></td> 
+        <td id="box9" onclick="myFunction(this);"></td> 
+    </tr>
+</table>
+
+<br>
+
+<input type="submit" class="btn btn-info" value="Reset Game" onclick="resetGame();">
+
+
+<input type="submit" class="btn btn-info" value="Click for Ajax" onclick="loadAjax();">
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="tictact.js"></script>
+</body>
+</html>
