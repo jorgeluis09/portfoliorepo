@@ -1,5 +1,14 @@
 var cardNumber = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-var cardSuit = ["clubs", "diamonds", "hearts", "spades"];
+//var cardSuit = ["clubs", "diamonds", "hearts", "spades"];
+
+var cardSuit = 
+            [
+              "http://www.clipartkid.com/images/377/card-icon-club-recreation-games-card-icons-card-icon-club-png-html-ORVOXM-clipart.png", 
+              "http://www.iconsdb.com/icons/preview/red/diamonds-xxl.png", 
+              "https://pbs.twimg.com/profile_images/552948755167596544/ixKTZV0h.png", 
+              "https://image.freepik.com/free-icon/spades-symbol_318-40683.jpg"
+            ];
+
 
 function generateCard(){
 
@@ -11,9 +20,20 @@ function generateCard(){
 
 	document.getElementById("letter1").innerHTML = numberDisplay;
 	document.getElementById("letter2").innerHTML = numberDisplay;
-	document.getElementById("suitimage").innerHTML = suitDisplay;
+	//document.getElementById("suitimage").innerHTML = suitDisplay;
+	document.getElementById("suitpic").src = suitDisplay;
+	
+	if (randomSuit == 1 || randomSuit == 2){
+	  document.getElementById("letter1").style.color = "red";
+	  document.getElementById("letter2").style.color = "red";
+	}
+	else{
+	  document.getElementById("letter1").style.color = "black";
+	  document.getElementById("letter2").style.color = "black";
+	}
 }
 
+/*
 $(document).ready(function(){
 
   var myURL = "https://4geeksacademy.github.io/code-projects/javascript-begginer/random-card/data.json";
@@ -40,3 +60,4 @@ function myErrorListener(data)
 {
   alert('error');
 }
+*/

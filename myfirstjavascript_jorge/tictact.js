@@ -9,6 +9,7 @@ var box7 = document.getElementById('box7');
 var box8 = document.getElementById('box8');
 var box9 = document.getElementById('box9');
 
+currentTurn = "X";
 
 function startGame(){
   currentTurn = "X";
@@ -84,16 +85,13 @@ function declareWinner(){
 
 function resetGame (){
   for(i=1; i<=9; i++)
-  {
-  document.getElementById("box" + i).innerHTML = "";
-  gameWinner="";
-  currentTurn="";
-  document.getElementById('displayMessage').innerHTML = "It's X's turn.";
-  }
+    {
+      document.getElementById("box" + i).innerHTML = "";
+      gameWinner="";
+      currentTurn="";
+      document.getElementById('displayMessage').innerHTML = "It's X's turn.";
+    }
 }
-
-
-
 
 
   function loadAjax(){

@@ -21,7 +21,8 @@ table{
 }
 
 #letter1, #letter2{
-	font-size: 40px;
+	font-size: 60px;
+	font-weight: bold;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -33,4 +34,8 @@ table{
 #row2{
 	height: 60%;
 	font-size: 45px;
+}
+
+#mybutton{
+	height: 40px;
 }
