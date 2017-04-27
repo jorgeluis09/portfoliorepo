@@ -16,6 +16,7 @@ function startGame(){
   document.getElementById('displayMessage').innerHTML = "It's X's turn.";
 }
 
+//Determines who's turn it is
 function myFunction(y){
 
   if(gameWinner == "X" || gameWinner == "O"){
@@ -43,6 +44,7 @@ declareWinner();
  document.getElementById('displayMessage').innerHTML = "It's "+currentTurn+"'s turn.";
 }
 
+//Checks if a player won the game
 function declareWinner(){
 
   if    (((box1.innerHTML == "X") && (box2.innerHTML == "X") && (box3.innerHTML == "X")) ||
@@ -82,7 +84,7 @@ function declareWinner(){
           (box9.innerHTML == "O" || box9.innerHTML == "X"))) */
   
 
-
+//Clears the Tic-Tac-Toe Board
 function resetGame (){
   for(i=1; i<=9; i++)
     {
@@ -107,3 +109,4 @@ function resetGame (){
       }
     });
   }    
+  

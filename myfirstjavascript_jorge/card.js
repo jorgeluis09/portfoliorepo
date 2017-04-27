@@ -1,6 +1,7 @@
 var cardNumber = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 //var cardSuit = ["clubs", "diamonds", "hearts", "spades"];
 
+//cardSuit Images in order of suits stated in line 2
 var cardSuit = 
             [
               "http://www.clipartkid.com/images/377/card-icon-club-recreation-games-card-icons-card-icon-club-png-html-ORVOXM-clipart.png", 
@@ -20,7 +21,6 @@ function generateCard(){
 
 	document.getElementById("letter1").innerHTML = numberDisplay;
 	document.getElementById("letter2").innerHTML = numberDisplay;
-	//document.getElementById("suitimage").innerHTML = suitDisplay;
 	document.getElementById("suitpic").src = suitDisplay;
 	
 	if (randomSuit == 1 || randomSuit == 2){
@@ -33,7 +33,7 @@ function generateCard(){
 	}
 }
 
-/*
+/* JSON that instructor wanted us to get via AJAX call
 $(document).ready(function(){
 
   var myURL = "https://4geeksacademy.github.io/code-projects/javascript-begginer/random-card/data.json";
